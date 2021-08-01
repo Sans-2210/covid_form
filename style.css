@@ -1,0 +1,262 @@
+        * {
+            padding: 0;
+            margin: 0;
+            background-image: url("b2.jpg");
+        }
+        
+        h1 {
+            margin-top: 10px;
+            text-align: center;
+            color: firebrick;
+        }
+        
+        .subheader-box {
+            background: transparent;
+        }
+        
+        .subheader {
+            font-family: 'Caveat', cursive;
+            text-align: right;
+            margin-right: 15px;
+            color: yellowgreen;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        /* ***************************h4 ****************/
+        
+        h4 {
+            font-family: 'Bree Serif', serif;
+            margin-bottom: 2px;
+        }
+        
+        @media screen and (min-width:541px) {
+            * {
+                background-image: url("b2.jpg");
+            }
+            .lg {
+                display: block;
+            }
+            .sm {
+                display: none;
+            }
+            /****************************form************************** */
+            .form-content {
+                margin-top: 15px;
+                margin-left: 55px;
+                margin-right: 5px;
+                height: 100vh;
+                /* font-family: 'Bree Serif', serif; */
+            }
+            /**********************name**************************/
+            .name {
+                display: flex;
+                background: transparent;
+            }
+            .fname {
+                margin-right: 60px;
+            }
+            #fname {
+                width: 40vw;
+                border-radius: 3px;
+            }
+            .lname {
+                width: 42vw;
+            }
+            #lname {
+                width: 40vw;
+                border-radius: 3px;
+            }
+            /*************************DOB*****************************/
+            .dob {
+                width: 36vw;
+            }
+            #date {
+                width: 34vw;
+                border-radius: 3px;
+            }
+            /* *******************bloodgrp**************************** */
+            .blood-grp {
+                width: 36vw;
+            }
+            #blood {
+                border-radius: 3px;
+            }
+            /********************gender*******************************/
+            .gender {
+                width: 36vw;
+            }
+            .gender-box {
+                display: flex;
+            }
+            .f,
+            .m,
+            .o {
+                margin-right: 25px;
+            }
+            /***********************country**************************/
+            .ctry-box {
+                background: transparent;
+                display: flex;
+                justify-content: space-between;
+                margin-right: 70px;
+                height: 15vh;
+            }
+            /*****************Tell us abt u********************/
+            .abtbox {
+                width: 60vw;
+                background: transparent;
+            }
+            #text-box {
+                width: 60vw;
+                height: 15vh;
+                border-radius: 5px;
+            }
+            /***********************submit**************************/
+            .sbt {
+                text-align: center;
+                opacity: 1;
+                background: transparent;
+            }
+            #sub {
+                height: 35px;
+                width: 16vw;
+                opacity: 1;
+                border-color: yellowgreen;
+                background: rgb(184, 255, 42);
+                border-width: 3px;
+                border-radius: 10px;
+                /* font-family: 'Noto Sans TC', sans-serif; */
+            }
+        }
+        /************************media-query********************************/
+        
+        @media screen and (max-width:700px) and (min-width:200px) {
+            .sm {
+                display: block;
+                height: 200px;
+                margin-bottom: 12px;
+            }
+            .lg {
+                display: none;
+            }
+            /****************************form************************** */
+            .form-content {
+                margin-top: 15px;
+                margin-left: 30px;
+                height: 100vh;
+            }
+            /**********************name**************************/
+            .name {
+                background: transparent;
+            }
+            .fname {
+                margin-right: 60px;
+            }
+            #fname {
+                width: 70vw;
+                border-radius: 3px;
+            }
+            #lname {
+                width: 70vw;
+                border-radius: 3px;
+            }
+            /*************************DOB*****************************/
+            .dob {
+                width: 50vw;
+            }
+            #date {
+                width: 45vw;
+                border-radius: 3px;
+            }
+            /* *******************bloodgrp**************************** */
+            .blood-grp {
+                width: 30vw;
+            }
+            #blood {
+                width: 25vw;
+                border-radius: 3px;
+            }
+            /********************gender*******************************/
+            .gender {
+                width: 70vw;
+            }
+            .gender-box {
+                width: 70vw;
+                display: flex;
+                font-size: 15px;
+                column-gap: 8px;
+            }
+            .f,
+            .m,
+            .o {
+                margin-right: 25px;
+            }
+            /***********************country**************************/
+            .ctry-boxx {
+                font-size: 15px;
+                background: transparent;
+                display: flex;
+                justify-content: space-between;
+                margin-right: 70px;
+                height: 1px;
+                width: 80vw;
+            }
+            /*****************Tell us abt u********************/
+            .abtbox {
+                margin-top: 10vh;
+                width: 60vw;
+                background: transparent;
+            }
+            #text-box {
+                width: 60vw;
+                height: 15vh;
+                border-radius: 5px;
+            }
+            /***********************submit**************************/
+            .sbt {
+                text-align: center;
+                opacity: 1;
+                background: transparent;
+            }
+            #sub {
+                height: 5vh;
+                width: 30vw;
+                opacity: 1;
+                border-color: yellowgreen;
+                background: rgb(184, 255, 42);
+                border-width: 5px;
+                border-radius: 10px;
+                /* font-family: 'Noto Sans TC', sans-serif; */
+            }
+        }
+        
+        @media screen and (max-width:769px) and (min-width:541px) {
+            .ctry-box {
+                font-size: 15px;
+            }
+        }
+        
+        @media screen and (max-width:1024px) and (min-width:541px) {
+            .ctry {
+                height: 120px;
+                background: transparent;
+            }
+            .ctry-box {
+                /* margin-bottom: 0; */
+                display: flex;
+                height: 90px;
+                row-gap: 10px;
+            }
+        }
+        
+        @media screen and (max-width:321px) {
+            .gender {
+                width: 90vw;
+            }
+            .gender-box {
+                width: 90vw;
+                display: flex;
+                font-size: 15px;
+                column-gap: 8px;
+            }
+        }
